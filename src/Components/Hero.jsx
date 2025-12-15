@@ -1,6 +1,6 @@
 import React from "react";
 
-const Home = () => {
+const Hero = () => {
   const handleScroll = (id) => {
     const element = document.getElementById(id);
     if (element) {
@@ -82,4 +82,4 @@ bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600      text-5xl md:text-
   );
 };
 
-export default Home;
+export default Hero;
